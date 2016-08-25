@@ -1,0 +1,4 @@
+datasets:
+- name: KJ397925.1
+  url: https://www.ebi.ac.uk/ena/data/view/KJ397925&display=fasta&download=fasta&filename=KJ397925.fasta
+  library_label: examples

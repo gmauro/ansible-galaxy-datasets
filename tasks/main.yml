@@ -1,0 +1,7 @@
+---
+- include: genomes.yml
+  when: galaxy_datasets_install_genomes
+
+- include: datasets.yml
+  when: galaxy_datasets_import_into_library
+

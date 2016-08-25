@@ -1,0 +1,17 @@
+galaxy_datasets_install_genomes: no
+galaxy_datasets_import_into_library: yes
+
+# A URL or an IP address for the Galaxy instance where the tools are to be
+# installed
+galaxy_tools_galaxy_instance_url: 127.0.0.1:8080
+
+# Blank variable to make sure it's defined
+galaxy_tools_api_key: ''
+
+# A list of yml files that list the tools to be installed. See`files/dataset_list.yaml.sample`
+# file for more about the format requirements of this file. The file names must be unique.
+galaxy_datasets_datasets_list_files: ["files/dataset_list.yaml"]
+
+# A system path from where this role will be run
+galaxy_tools_base_dir: /tmp
+
